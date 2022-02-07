@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS2_LastName.tex}
+\author{jmalpert }
+\date{February 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Main Tools of Data Scientist}
+
+\begin{itemize}
+    \item Measurement
+
+    \item Statistical programming languages
+    \item Visualization tools
+    \item Big Data Management software
+    \item Data Collection tools
+    \end{itemize}
+
+\end{document}
