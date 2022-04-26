@@ -1,0 +1,124 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{Income Inequality and Economic Growth: Evidence From the United States}
+\author{Jason Alpert }
+\date{April 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\vspace{2mm}
+
+\quad Income inequality is a growing area of concern for many people around the world.  Economists have studied this area but still have not developed a consensus as to the causes and more importantly the solutions.  In addition, many economists have focused on developing countries rather than developed countries.  This paper differs in its attempt to find evidence in a developed country.  In order to show these impacts, this paper utilizes proxies for both production supply and consumer demand.
+\vspace{2mm}
+
+\quad Given the contradictory results, economists have begun to classify theories into three categories.  The first is socio-political theories.  Under this view, incentive from income inequality leads social and political unrest.  This introduces destabilization, higher crime, and possibly revolution.  Through this view, redistribution is minimal and only an attempt to avoid revolution. In addition, higher income inequality leads to higher economic growth.  The second category is savings rate and tech spillovers.  Under this view, higher income inequality leads to higher savings rate.  This increases the amount of investment in an economy and thereby fuels growth.  In addition, the technological gains from higher investment lead to more spillovers in an economy.  The third category involves the level of credit market asymmetries.  This focuses in on the amount of available credit and the differences between high and low income individuals.  The main point of this theory states that inequality allows for higher levels of access than would otherwise be available.  
+\vspace{2mm}
+
+\quad In order to produce this study, the data is restricted to the United States.  This will provide a look into the impact of income inequality within high-income countries.  This paper utilizes an unique time frame that includes 1991 through 2018.  This is the most recent time frame allowed given the constraints on the data availability. In addition, this paper provides a holistic approach to income inequality by utilizing Gross Domestic Product, Gross National Income, and Personal Consumption Expenditures.  The goal of this paper is to provide and update to past work and a comprehensive look at income inequality in the United States.
+\vspace{2mm}
+
+\quad This study provides the following key results.  There is a definite positive correlation between income inequality and Gross Domestic Product, Gross National Income, and Personal Consumption Expenditures.    These results conflict with some past studies while supporting others.  In general, this is disagrees with the view that a country reaches maturity and income inequality reduces.  The results show that income inequality positively affects growth even at the maturity stage. 
+\vspace{2mm}
+
+\quad The remainder of the paper is organized as follows.  Section 2 contains a review of the current literature. Section 3 contains a description of the data and initial statistics.  Section 4 contains the econometric methodology.  Section 5 contains the results.  Section 6 is the conclusion.  
+
+\section{Literature Review}
+\vspace{2mm}
+
+\quad Early work into the impact of economic growth and income inequality showed that economic growth reduced income inequality.  Kuznets(1955) showed this and provided a comprehensive look at economic growth and income inequality.  This began the view of the inverted U-shaped curve.  This curve modeled the early increases in inequality followed by reductions as an economy reaches maturity.  However, this did little to provide a consensus.  Many other economists found contradictory results.  For example, Benabou and Perotti find that income inequality tends to lower economic growth while Forbes(2000) finds the opposite.
+\vspace{2mm}
+
+\quad This leads to an interesting question.  Does globalization mitigate income inequality?  According to Bechtel(2014), globalization does decrease income inequality.  More specifically in Bechtel(2012), he explains that "economic anxiety along with loss of household income and purchasing power has harmful effects on consumer demand, voter turnout, institutional trust, societal satisfaction, and well-being."  He later determines that economic anxiety is driven by income inequality.  As such, income inequality mimics the effects of economic anxiety.  Using a large-cross national sample from the fifth round of the European Social Survey, he shows that globalization reduces income inequality and as a result the negative effects of economic anxiety.
+\vspace{2mm}
+
+\quad Wahiba and Weriemmi(2014) take a look at the relationship between economic growth and income inequality in Tunisia.  In their study, they show that economic growth and openness exchange constituted aggravating factors of inequalities.  Also, these factors increased the negative  effects with the accelerated process of trade liberalization.  In addition to the prior result, they found that income inequality had a negative effect on economic growth.  In addition, this effect was more pronounced after the acceleration brought about by opening exchange.  This result is explained by the authors as the country reaching an "unbearable" level of inequality.  It also shows a failure of redistribution policies.  
+\vspace{2mm}
+
+\quad Rubin and Segal(2015) look into the effects of economic growth on income inequality in the United States.  In their paper, they find that income of the top earner is more sensitive to economic growth.  This is explained by the linkage of top earners with capital markets.  Lower earners tend to be more reliant on labor income rather than capital income.  This includes the trend of providing capital options to top labor earners.  These individuals tend to have a higher amount of wealth that provides higher incomes. The authors conclude that growth and income inequality are positively correlated. 
+\vspace{2mm}
+
+\quad Aguiar and Bils(2011) offer a different look at the impacts of income inequality on economic growth.  They utilize data from the Consumer Expenditure Survey to understand the role inequality has on demand.  They do so by using reports on active savings and after tax income.  This is used to construct the measure of consumption implied by the budget constraint.  Next, they use a demand system to correct for measurement error.  The system exploits the difference between the growth rates of luxury goods versus necessary goods.  They find that consumption inequality has closely tracked income inequality.  This implies that consumer demand and income inequality may be positively correlated.  
+
+\section{Data}
+\vspace{2mm}
+
+\quad The data for this study is collected from the Federal Reserve Bank of St. Louis.  The main focus of the data is the impact of the Gini Coefficient on Gross Domestic Product, Gross National Income, and Personal Consumption Expenditures.  The Gini Coefficient is a measure of inequality ranging from 0(perfect equality) to 1(perfect inequality). Gross Domestic Product and Gross National Income Product are measures of production supply.  Personal Consumption Expenditures is a measure of consumer demand.
+\vspace{2mm}
+\quad In addition to these variables, information on inflation and housing expenditures were collected.  These variables were collected from the Federal Reserve as well.  The time frame for this data is 1991 thru 2018.  This is the longest continuous stream of Gini Coefficients available from the Federal Reserve.  The Descriptive Statistics are shown in table 1.  
+\vspace{2mm}
+
+
+
+\section{Methodology}
+\vspace{2mm}
+
+\quad The econometric model used for this analysis is an Autoregressive model.  This choice allows for autocorrelation to be within the data.  In addition to this choice, Newey West standard errors are used. Below is the equations used for the estimation.  
+
+\vspace{2mm}
+
+\centering $GDP=\beta_0+\beta_1Gini+\beta_2inf+\epsilon$
+  \vspace{2mm}
+
+\centering $GNI=\beta_0+\beta_1Gini+\beta_2inf+\epsilon$
+  \vspace{2mm}
+
+\centering $PCE=\beta_0+\beta_1Gini+\beta_2inf+\epsilon$
+  \vspace{2mm}
+\flushleft
+
+\quad In the models above, GDP stands for Gross Domestic Product.  GNI stands for Gross National Income.  Gini represents the Gini Coefficient.  Inf represents the measure of inflation.  $\epsilon$ is an error term given to the models.  
+\section{Results}
+
+
+\vspace{2mm}
+
+
+
+Figure 1 shows visually that the levels of Gross Domestic Product, Gross National Income, and Personal Consumption Expenditures tend to increase with inequality as measured by the Gini Coefficient. Below is a table of the estimation results using process stated earlier.
+
+
+\vspace{2mm}
+
+\quad The first column of table 2 shows the results using Gross Domestic Product as the dependent variable.  It shows an increase of 2,391.517 billion increase in Gross Domestic Product per unit increase in the Gini Coefficient.  This result is statistically significant at the one percent level.  The inflation coefficient shows a negative relationship with Gross Domestic Product.  Gross Domestic Product decreases by 513.8905 billion per unit increase in inflation.  The second column of table 2 shows the results using Gross National Income as the dependent variable.  Gross National Income is increased by 3819.645 billion per unit increase in the Gini Coefficient.  As before, inflation maintains a negative correlation.  It shows a decrease in Gross National Income of 833.2769 billion per unit increase of inflation. The third column of table 2 shows Personal Consumption Expenditures as the dependent variable.  This regression shows an increase 2,570.356 billion per unit increase of the Gini Coefficient.  Inflation shows a negative correlation.  There is a decrease of 591.1872 billion per unit increase in inflation.  
+\vspace{2mm}
+
+\quad The results of this regression show a clear pattern.  Every dependent variable measured shows a positive correlation with the Gini Coefficient.  In addition, these measures are all economically large and  statistically significant at the 1 percent level. It is also clear that inflation plays a detrimental role that is inverse to the dependent variables.  All showed a large and statistically significant impact.
+
+\vspace{2mm}
+
+\section{Conclusion}
+
+\quad Income inequality is a major area of study by economists.  However, much of this focuses on developing countries rather than developed countries. This paper differs from others by focusing on a high income country.  The results of this study conflict with much of the findings in developing countries.  It implies that the same impediments to growth in developing countries are not the same as developed countries.   
+\vspace{2mm}
+
+\quad Much of the current literature provides contradictory results.  It seems the results change with methodological choice of the researcher at the developing level.  This study provides some key results.  It finds that Gross Domestic Product tends to change positively with income inequality.  Gross National Income tends to change positively with income inequality.  Finally, Personal Consumption Expenditures tend to change positively with income inequality.  If taken as causal, these results show a very different consistency than seen at the developing level. 
+\vspace{2mm}
+
+\quad The purpose of this paper is to provide evidence to support the theory that the relationship of inequality is different in developed countries than in developing.  This is achieved through the use Federal Reserve data and an autoregressive model.  This method was chosen to account for autocorrelation in the error term.  In addition, Newey-West standard errors were used to improve the variance measurement. Through this process, the researcher's suspicions were confirmed. 
+\quad 
+
+\newpage
+
+Table 1
+\vspace{2mm}
+\includegraphics[.5]{DSCsum.png}
+
+\vspace{2mm}
+Figure 1
+\includegraphics[.5]{DSCgraph.png}
+
+\vspace{2mm}
+
+\newpage
+
+Table 2
+\includegraphics[.5]{DSCTable.png}
+
+
+
+\end{document}
